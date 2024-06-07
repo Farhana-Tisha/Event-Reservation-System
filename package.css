@@ -1,0 +1,125 @@
+.bg-image{
+    background-image: url("im/bg.jpg"); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    overflow:auto;
+ 
+}
+
+.container{
+	width:80%;
+	margin:10% auto;
+}
+
+
+.columns{
+	display:flex;
+	justify-content:space-between;
+	text-align:center;
+}
+
+.col{
+	width:25%;
+	
+       
+}
+.col1{
+	width:30%;
+	
+       
+}
+.row_2{
+	width:100%;
+    text-align: center;
+       
+}
+
+.image{
+	width:125%;
+}
+
+h1{color:Black;
+font-size:2.8rem;
+text-align:center;
+}
+
+
+h2{
+	color:Black;
+	font-size:1.7rem;
+} 
+
+h3{
+	color:Black;
+	font-size:1.5rem; 
+} 
+p{
+	color:Black;
+	font-size:1.4rem;
+
+}
+
+
+.button {
+	background-color: #4CAF50;
+	border: none;
+	color: Black;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 1rem;
+	padding: 1em 2em;  
+	cursor: pointer;
+}
+.button-intro {
+    background-color: #4CAF50;
+    border: none;
+    color: Black;  
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    padding: 1em 1em;
+    cursor: pointer;
+}
+#Blackspace_1{
+    
+    margin-top: 12em;
+    
+}
+#Blackspace_2{
+    
+    margin-top: 9em;
+    
+}#Blackspace_3{
+    
+    margin-top: 3em;
+    
+}#Blackspace_4{
+    
+    margin-top: 3.4em;
+    
+}
+
+
+@media (max-width:600px)
+
+{
+	.columns{
+           	flex-direction:column;
+                }
+        .col{
+           	width:100%;
+            	}
+ 
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,82 @@
+
+.bg-image-intro {
+    background-image: url("im/bg_intro.jpg"); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    overflow:scroll;
+ 
+}
+
+.container{
+    
+    width:100%;
+    padding:0 auto;
+}
+
+.row_1{
+	
+   text-align:center;
+    
+}
+.row_2{
+   
+   text-align:center;
+    
+}
+
+.button-intro {
+    background-color: #4CAF50;
+    border: none;
+    color: Black;  
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    padding: 1em 1em;
+    cursor: pointer;
+}
+.columns{
+    
+    
+    display: flex;
+   
+    float:right;
+   
+    
+}
+.image{
+    
+    width: 6em;
+    height:6em;
+}
+
+p{
+    font-size: 6rem;
+    padding-top:13%;
+    color:Black;
+}
+
+@media (max-width:600px)
+{
+        p{
+           font-size: 4rem;
+            padding-top:2%;
+        
+         }        
+      
+      .button-intro {
+               font-size: 1.5rem;           
+           
+                }
+    .columns{
+                width:100%;
+                justify-content:space-between;
+            }
+    
+}
+
+
+ 
+}

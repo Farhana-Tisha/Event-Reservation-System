@@ -1,0 +1,122 @@
+.container{
+	width:90%;
+    margin:0 auto;
+    
+    
+}
+
+.row{
+	width:100%;
+  
+    padding-top:1em; 
+       
+}
+
+
+.bg-image{
+    background-image: url("im/bg.jpg"); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    overflow:auto;
+ 
+}
+.bg123-image{
+    background-image: url("im/bg123.jpg"); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    overflow:auto;
+ 
+}
+h1{
+    color:Black;
+    text-align: center;
+
+
+}
+h2{
+    color:Black;
+    text-align: center;
+}
+h3{color:Black;}
+p{
+padding-left:10%;
+padding-right:10%;
+padding-top:2%; 
+
+font-size: 1.3rem;
+color:Black;
+}
+p1{
+
+color: Black;
+
+}
+ol{
+    margin-left: 10%;
+    text-align: left;
+    color:Black;
+}
+ol li{font-size:1.3rem;}
+
+.columns{
+    
+    
+    display: flex;
+   
+    float:right;
+   
+    
+}
+.image{
+    
+    width: 6em;
+    height:6em;
+}
+
+@media (max-width:600px)
+{
+        ol{
+            margin-left:0%;
+         }     
+}
+.row_2{
+   
+   text-align:center;
+    
+}
+.button-intro {
+    background-color: #4CAF50;
+    border: none;
+    color: Black;  
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    padding: 1em 1em;
+    cursor: pointer;
+}
+.button {
+	background-color: #4CAF50;
+	border: none;
+	color: Black;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 1rem;
+	padding: .5em 2em;  
+	cursor: pointer;
+}
+.button1 {
+    
+    color: Black;  
+    text-align: center;
+    
+}
+#image-box.image-slide{
+width:100px;
+height:80px;
+}
